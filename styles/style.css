@@ -150,3 +150,54 @@ p{
 .menubar{
     display: none;
 }
+    /* banner section */
+                      /* banner section */
+.banner-title{
+    font-size:4.3rem ;
+    font-weight: 700;
+    text-align: left;
+   margin: 0 auto;
+    margin-bottom: 24px;
+
+}
+.banner-orange{
+    color:rgb(254, 163, 1) ;
+}
+.banner-blue{
+    color:rgb(1, 172, 253) ;
+}
+.banner-description{
+    font-size: 1.7rem;
+    text-align: left;
+    margin-bottom: 24px;
+
+}
+.banner-btn a{
+    text-decoration: none;
+    color: white;
+}
+.banner-btn {
+    font-size: 1.7rem;
+    font-weight: 400;
+    
+    background-color:rgb(17, 17, 17) ;
+    border-radius: 12px;
+    padding: 10px 40px;
+    
+}
+.banner-content{
+    /* display: flex;
+    flex-direction: column; */
+max-width: 900px;
+
+
+}
+.banner>.banner-img>img{
+    max-width: 700px;
+    height: 700px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
