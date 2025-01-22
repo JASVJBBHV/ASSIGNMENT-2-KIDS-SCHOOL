@@ -443,4 +443,289 @@ max-width: 900px;
                         .hr-line{
                             display: none;
                         }
+                /* FOOTER SECTIONN */
+
+                        .whole-footer{
+                            /* display: grid;
+                            grid-template-columns: repeat(3,1fr);
+                            gap:10px; */
+                            /* align-items:start; */
+                           /* justify-content:space-around; */
+                           background-color:rgba(138, 154, 91, 0.5) ;
+                              display: flex;
+                              align-items: center;
+                              justify-content: space-between;
+                              
+                              color: white;
+                           
+                           
+                        }
+                        .footer-content{
+                            display: flex;
+                            justify-content: space-around;
+                            gap: 143px;
+                            margin-left: 137px;
+                            margin-top: 123px;
+                            margin-bottom: 174px;
+                          
+                          }
+                        .logo-title{
+                            
+                            color: white;
+                            font-size: 2.3rem;
+                            font-weight: 700;
+                            line-height: 50px;
+                            margin: 0;
                         
+                        }
+                        .fotter-logo img{
+                            width: 100%;
+                            
+                        
+                        }
+                        .logo-title-flex{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 0px;
+                            gap: 10.7px;
+                        
+                        }
+                        .footer-description{
+                            font-size: 1.25rem;
+                            color: white;
+                            font-weight: 400;
+                            line-height: 25px;
+                            max-width: 399.02px;
+                           
+                        }
+                        .footer-first{
+                           margin-left: 172px;
+                        }
+                        
+                                        
+                        .foot-second{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        
+                        }
+                        
+                        .item-1{
+                            margin-top: 40px;
+                            font-size: 1.5rem;
+                            font-weight: 700;
+                            color: white;
+                            line-height: 30px;
+                            margin-right: 100px;
+                        }
+                        .item{
+                            font-size: 1.25rem;
+                            color: white;
+                            font-weight: 500;
+                            line-height: 25px;
+                           margin: 0;
+                           margin-bottom: 20px;
+                        }
+                                    
+                        .footer-third{
+                            margin-right: 100px;
+                        }
+                        .icon-title{
+                            margin-top: 40px;
+                            color: white;
+                            font-size: 1.6rem;
+                            font-weight: 700;
+                           
+                            margin-bottom: 32px;
+                        }
+                        .icons{
+                            display: flex;
+                            gap: 10.15px;
+                        } 
+                        .mobile{
+                            display: none;
+                        }
+
+
+
+                        .banner-title-mobile{
+                            display: none;
+                        }
+                        .visibility{
+                            display: none;
+                        }
+                        
+                        
+                                             /* MARQUEE EFFECT */
+                        
+                        .marque-item {
+                            /* overflow: hidden; */
+                            
+                            width: 100%; 
+                            animation: marquee-content 10s linear infinite; 
+                        }
+                        
+                        @keyframes marquee-content {
+                            from {
+                                transform: translateX(-100%);
+                            }
+                            to {
+                                transform: translateX(100%); 
+                            }
+                        }
+                        
+                                            /* responsive */
+                         @media screen and (max-width:576px) {
+                        
+                        .margin{
+                            margin: 16px;
+                        }
+                        .navigation{
+                            padding: 16px 12px;
+                            margin: 0px 0px;
+                            justify-content: space-between;
+                            max-width: 100%;
+                            margin-bottom: 12px;
+                            border: 0.5px solid rgb(254, 163, 1); ;
+                        }
+                        .nav-title{
+                            display: none;
+                        }
+                        .nav-middle{
+                            display: none;
+                        }
+                        .nav-btn{
+                            display: none;
+                        }
+                        .menubar{
+                            display: block;
+                        }
+                        /* .hr-line{
+                            background-color: aqua;
+                            width:100 ;
+                            border: 0.5px solid rgb(254, 163, 1);
+                        
+                        } */
+                        .banner {
+                            padding: 20px 0px 20px 0px;
+                            flex-direction: column-reverse;
+                            gap: 18px;
+                           
+                            
+                        }
+                        .banner-title{
+                            display: none;
+                        }
+                        .banner-title-mobile{
+                            display: block;
+                            font-size:3.3rem ;
+                            font-weight: 700;
+                           
+                           margin: 0 auto;
+                            margin-bottom: 18px;
+                            text-align: center;
+                           
+                        } 
+                        .banner>.banner-img>img{
+                            max-width:100%;
+                            height: 100%;
+                            
+                           
+                        }
+                        .banner-content{
+                            text-align: center;
+                            margin: 18px 0px;
+                        }
+                        .banner-description{
+                            text-align: center;
+                        }
+                        .curriculum-items{
+                            grid-template-columns: repeat(1,1fr);
+                            gap: 12px;
+                        }
+                        .marque-item {
+                            animation: none;
+                            font-size: 26px;
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+                        .marque-item>h2{
+                            margin: 0;
+                            margin-bottom: 20px;
+                        }
+                        .whole-curr-section{
+                            gap: 20px;
+                        }
+                        .arrow{
+                            display: none;
+                        }
+                        .fun-item{
+                            display: none;
+                        }
+                        .stories-container{
+                            grid-template-columns: repeat(1,1fr);
+                          
+                        }
+                        .story-items{
+                            gap: 11.31px;
+                        }
+                        .story-text{
+                            padding: 0px 0px 19px 22px ;
+                            max-width: 100%;
+                        
+                        }
+                        .display{
+                            gap: 20px;
+                          
+                        }
+                        .our-story-title{
+                            margin-top: 40px;
+                        }
+                        .story-title{
+                            font-size:1.2rem ;
+                            font-weight:700;
+                            margin: 0 auto;
+                        }
+                        .story-btn{
+                            font-size:1.2rem ;
+                            
+                        }
+                        .story-btn-2{
+                            font-size:1.2rem ;
+                        }
+                        .footer-content{
+                            flex-direction: column;
+                            gap: 32px;
+                            margin-left: 21px;
+                            margin-top: 65px;
+                            margin-bottom: 60px;
+                        
+                        
+                        }
+                        .footer-first{
+                            margin: 0px;
+                        }
+                        .icon-title{
+                            margin-top: 0px;
+                            margin-bottom: 36px;
+                        }
+                        .logo-title> h2{
+                            margin: 15px 0px 23.88px 0px;
+                            padding: 0;
+                        }
+                        .fotter-logo>img{
+                            width: 100px;
+                            height: 100px;
+                        
+                        }
+                        .standard-curriculum{
+                           
+                            
+                            background-image: url(../assets/bg.png);
+                            background-size:  contain;
+                            background-repeat: no-repeat;
+                          
+                            
+                        }
+                        
+                    }                        
