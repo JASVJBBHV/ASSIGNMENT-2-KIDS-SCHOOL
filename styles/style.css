@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.quicksand-font-1 {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+   
+  }
+    
+
+ .raleway-font-2 {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+   
+  }
+  body{
+    margin: 0 ;
+    padding: 0;
+  }
+
+                      /* shared style */
+.bg{
+    background-color: rgb(247, 247, 247);
+    
+}
+.footer-bg{
+    background-color:rgba(138, 154, 91, 0.5) ;
+    margin: 0;
+    padding: 0;
+}
+.margin{
+margin: 0px 150px;
+}
+ .dark-1{
+    color:rgb(0, 0, 0) ;
+ } 
+ .dark-2{
+    color:rgb(17, 17, 17);
+ }
+
+ .standard-curriculum{
+   
+    
+    background-image: url(../assets/bg.png);
+    background-size: 105% 95%;
+    background-repeat: no-repeat;
+  
+    
+}
+.story-bg{
+   
+    background-image: url(../assets/bg.png),linear-gradient(00.00deg,rgba(204, 204, 255,0.4),rgba(255, 255, 255, 0.3)100%) ;
+    background-size: contain;
+   
+    /* background-repeat: no-repeat; */
+
+   padding-bottom: 60px;
+    margin-bottom: 0px;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+   
+   
+}
+
+
+
+
+                 /* navigation bar */
+nav ul li {
+    list-style: none;
+   
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+.lists{
+    display: flex;
+    gap: 32px;
+
+}
+nav ul a:hover  {
+    background-color: rgb(205, 202, 202);
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.nav-first{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.nav-title{
+   
+    font-size: 2.3rem;
+    font-weight: 700;
+
+}
+.nav-btn a{
+    text-decoration: none;
+    color: white;
+}
+.nav-btn{
+    
+    font-size: 1.7rem;
+    font-weight: 500;
+    background-color:rgb(254, 163, 1) ;
+    border: none;
+    border-radius:12px ;
+    padding: 20px 57px;
+}
+p{
+    margin: 0 10px;
+}
+.list-item-1{
+  color: rgb(254, 163, 1);
+  font-weight:700 ;
+}
+.list-item-2{
+    color: rgb(1, 172, 253);
+    font-weight:500 ;
+}
+.list-item-3{
+    color:rgb(5, 212, 223);
+    font-weight:500 ;
+}
+.list-item-4{
+    color: rgb(93, 88, 239);
+    font-weight:500 ;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+}
+.menubar{
+    display: none;
+}
