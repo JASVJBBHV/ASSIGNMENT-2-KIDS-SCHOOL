@@ -574,158 +574,196 @@ max-width: 900px;
                             }
                         }
                         
-                                            /* responsive */
-                         @media screen and (max-width:576px) {
-                        
-                        .margin{
-                            margin: 16px;
-                        }
-                        .navigation{
-                            padding: 16px 12px;
-                            margin: 0px 0px;
-                            justify-content: space-between;
-                            max-width: 100%;
-                            margin-bottom: 12px;
-                            border: 0.5px solid rgb(254, 163, 1); ;
-                        }
-                        .nav-title{
-                            display: none;
-                        }
-                        .nav-middle{
-                            display: none;
-                        }
-                        .nav-btn{
-                            display: none;
-                        }
-                        .menubar{
-                            display: block;
-                        }
-                        /* .hr-line{
-                            background-color: aqua;
-                            width:100 ;
-                            border: 0.5px solid rgb(254, 163, 1);
-                        
-                        } */
-                        .banner {
-                            padding: 20px 0px 20px 0px;
-                            flex-direction: column-reverse;
-                            gap: 18px;
-                           
-                            
-                        }
-                        .banner-title{
-                            display: none;
-                        }
-                        .banner-title-mobile{
-                            display: block;
-                            font-size:3.3rem ;
-                            font-weight: 700;
-                           
-                           margin: 0 auto;
-                            margin-bottom: 18px;
-                            text-align: center;
-                           
-                        } 
-                        .banner>.banner-img>img{
-                            max-width:100%;
-                            height: 100%;
-                            
-                           
-                        }
-                        .banner-content{
-                            text-align: center;
-                            margin: 18px 0px;
-                        }
-                        .banner-description{
-                            text-align: center;
-                        }
-                        .curriculum-items{
-                            grid-template-columns: repeat(1,1fr);
-                            gap: 12px;
-                        }
-                        .marque-item {
-                            animation: none;
-                            font-size: 26px;
-                            text-align: center;
-                            margin: 0 auto;
-                        }
-                        .marque-item>h2{
-                            margin: 0;
-                            margin-bottom: 20px;
-                        }
-                        .whole-curr-section{
-                            gap: 20px;
-                        }
-                        .arrow{
-                            display: none;
-                        }
-                        .fun-item{
-                            display: none;
-                        }
-                        .stories-container{
-                            grid-template-columns: repeat(1,1fr);
-                          
-                        }
-                        .story-items{
-                            gap: 11.31px;
-                        }
-                        .story-text{
-                            padding: 0px 0px 19px 22px ;
-                            max-width: 100%;
-                        
-                        }
-                        .display{
-                            gap: 20px;
-                          
-                        }
-                        .our-story-title{
-                            margin-top: 40px;
-                        }
-                        .story-title{
-                            font-size:1.2rem ;
-                            font-weight:700;
-                            margin: 0 auto;
-                        }
-                        .story-btn{
-                            font-size:1.2rem ;
-                            
-                        }
-                        .story-btn-2{
-                            font-size:1.2rem ;
-                        }
-                        .footer-content{
-                            flex-direction: column;
-                            gap: 32px;
-                            margin-left: 21px;
-                            margin-top: 65px;
-                            margin-bottom: 60px;
-                        
-                        
-                        }
-                        .footer-first{
-                            margin: 0px;
-                        }
-                        .icon-title{
-                            margin-top: 0px;
-                            margin-bottom: 36px;
-                        }
-                        .logo-title> h2{
-                            margin: 15px 0px 23.88px 0px;
-                            padding: 0;
-                        }
-                        .fotter-logo>img{
-                            width: 100px;
-                            height: 100px;
-                        
-                        }
-                        .standard-curriculum{
-                           
-                            
-                            background-image: url(../assets/bg.png);
-                            background-size:  contain;
-                            background-repeat: no-repeat;
-                          
-                            
-                        }
-                        
-                    }                        
+                    /* responsive */
+                    @media screen and (max-width:576px) 
+ 
+                    {
+                   /* body{
+                       overflow: hidden;
+                   } */
+                   .margin{
+                       margin: 16px;
+                   }
+                   .navigation{
+                       padding: 16px 12px;
+                       margin: 0px 0px;
+                       justify-content: space-between;
+                       max-width: 100%;
+                       margin-bottom: 12px;
+                       border: 0.5px solid rgb(254, 163, 1); ;
+                   }
+                   .nav-title{
+                       display: none;
+                   }
+                   .nav-middle{
+                       display: none;
+                   }
+                   .nav-btn{
+                       display: none;
+                   }
+                   .menubar{
+                       display: block;
+                   }
+                   /* .hr-line{
+                       background-color: aqua;
+                       width:100 ;
+                       border: 0.5px solid rgb(254, 163, 1);
+                   
+                   } */
+                   .banner {
+                       padding: 20px 0px 20px 0px;
+                       flex-direction: column-reverse;
+                       gap: 18px;
+                      
+                       
+                   }
+                   .banner-title{
+                       display: none;
+                   }
+                   .banner-title-mobile{
+                       display: block;
+                       font-size:3.3rem ;
+                       font-weight: 700;
+                      
+                      margin: 0 auto;
+                       margin-bottom: 18px;
+                       text-align: center;
+                      
+                   } 
+                   .banner>.banner-img>img{
+                       max-width:100%;
+                       height: 100%;
+                       
+                      
+                   }
+                   .banner-content{
+                       text-align: center;
+                       margin: 18px 0px;
+                   }
+                   .banner-description{
+                       text-align: center;
+                   }
+                   .curriculum-items{
+                       grid-template-columns: repeat(1,1fr);
+                       gap: 12px;
+                   }
+                   .curriculum-title{
+                       overflow: unset;
+                       white-space: wrap;
+                   }
+                   .marque-item {
+                       animation: none;
+                       font-size: 26px;
+                       text-align: center;
+                       margin: 0 auto;
+                   }
+                   .marque-item>h2{
+                       margin: 0;
+                       margin-bottom: 20px;
+                       flex-wrap: nowrap;
+                   }
+                   .whole-curr-section{
+                       gap: 20px;
+                   }
+                   .arrow{
+                       display: none;
+                   }
+                   .fun-item{
+                       display: none;
+                   }
+                   .stories-container{
+                       grid-template-columns: repeat(1,1fr);
+                     
+                   }
+                   .story-items{
+                       gap: 11.31px;
+                   }
+                   .story-text{
+                       padding: 0px 0px 19px 22px ;
+                       max-width: 100%;
+                   
+                   }
+                   .display{
+                       gap: 20px;
+                     
+                   }
+                   .our-story-title{
+                       margin-top: 40px;
+                   }
+                   .story-title{
+                       font-size:1.2rem ;
+                       font-weight:700;
+                       margin: 0 auto;
+                   }
+                   .story-btn{
+                       font-size:1.2rem ;
+                       
+                   }
+                   .story-btn-2{
+                       font-size:1.2rem ;
+                   }
+                   .whole-footer{
+                       max-width: 100%;
+                       margin-right: 0px;
+                       padding-left: 10px;
+                       padding-bottom: 60px;
+                       padding-top:65px ;
+                   }
+                   .footer-content{
+                      
+                       flex-direction: column;
+                       gap: 32px;
+                       margin-left: 20px;
+                       gap:20px;
+                       margin: 0;
+                       flex-wrap: wrap;
+                      }
+                   .footer-description{
+                       color: rgb(255, 255, 255);
+                       max-width: 50%;
+                       flex-wrap: wrap;
+                   } 
+                   
+                   .logo-title-flex{
+                       max-width: calc(100% - 10px);
+                   }
+                   
+                   .footer-first{
+                      
+                       max-width: 100%;
+                       margin: 0px;
+                   }
+                   .icon-title{
+                       margin-top: 0px;
+                       margin-bottom: 36px;
+                   }
+                   .logo-title> h2{
+                       color: rgb(255, 255, 255);
+                       margin: 15px 0px 23.88px 0px;
+                       padding: 0;
+                     
+                       
+                   }
+                   .fotter-logo>img{
+                       max-width: 100%;
+                       max-height: 100%;
+                   
+                   }
+                   .story-bg{
+                       max-width: 100%;
+                       background-size: cover;
+                   }
+                   .standard-curriculum{
+                       max-width: 100%;
+                      
+                       background-image: url(../assets/bg.png);
+                       background-size:  contain;
+                       background-repeat: no-repeat;
+                     
+                       
+                   }
+                   
+                   
+                                          
+                   }
+                   
