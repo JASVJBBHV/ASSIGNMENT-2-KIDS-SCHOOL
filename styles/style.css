@@ -283,3 +283,164 @@ max-width: 900px;
                     gap: 10px;
                     margin-bottom: 60px;
                 }
+                         /* our story */
+                         .our-story-title{
+                            font-size: 3.3rem;
+                            font-weight: 900;
+                            margin-top: 60px;  
+                            line-height: 57.5px;
+                        }
+                        
+                        .fun-item{
+                            /* max-width:600px ; */
+                           
+                          
+                            border-radius: 16px;
+                            background-image: url(../assets/story-1.png);
+                            background-size: contain;
+                            background-position: top;
+                            background-repeat: no-repeat;
+                            background-color: white;
+                            border: 0.2px solid rgb(255, 255, 255);
+                        
+                        }
+                        .fun-text{ 
+                        
+                            text-align: left;
+                            margin-top: 59%;
+                            padding: 0px 35px 35px 35px;
+                        
+                        }
+                        .fun-btn{
+                            color: white;
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                            background-color:rgb(60, 216, 232);
+                            border: none;
+                            border-radius:48px ;
+                            padding: 17px 22px;
+                            margin-bottom: 36.43px;
+                        }
+                        .fun-title{
+                            max-width: 502px;
+                          font-size: 1.9rem;
+                          font-weight: 700;  
+                          margin: 0;
+                          margin-bottom: 52px;
+                        }
+                        .fun-description{
+                            max-width: 563px;
+                            line-height: 29px;
+                            margin-top: 52px;
+                            color:rgb(102, 102, 102) ;
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                            margin: 0;
+                        }
+                        
+                        
+                        .story-text{ 
+                        
+                            text-align: left;
+                            margin-top: 56%;
+                            padding: 0px 37px 33px 54px;
+                        
+                        }
+                        
+                        
+                        .story-item-1{
+                           /* max-width:300px ;  */
+                           
+                            
+                            border-radius: 16px;
+                            background-image: url(../assets/story-2.png);
+                            background-size: contain;
+                            background-position: top;
+                            background-repeat: no-repeat;
+                            background-color: white;
+                            /* border: 0.2px solid rgb(255, 255, 255); */
+                        }
+                        .story-item-2{
+                             /* max-width:300px ;  */
+                           
+                            
+                            border-radius: 16px;
+                            background-image: url(../assets/story-3.png);
+                            background-size: contain;
+                            background-position: top;
+                            background-repeat: no-repeat;
+                            background-color: white;
+                            /* border: 0.2px solid rgb(255, 255, 255); */
+                        }
+                        .story-item-3{
+                             /* max-width:300px ;  */
+                        
+                            border-radius: 16px;
+                            background-image: url(../assets/story-4.png);
+                            background-size: contain;
+                            background-position: top;
+                            background-repeat: no-repeat;
+                            background-color: white;
+                            /* border: 0.2px solid rgb(255, 255, 255); */
+                        }
+                        .story-item-4{
+                            /* max-width:300px ; 
+                            */
+                            
+                            border-radius: 16px;
+                            background-image: url(../assets/story-5.png);
+                            background-size: contain;
+                            background-position: top;
+                            background-repeat: no-repeat;
+                            background-color: white;
+                            /* border: 0.2px solid rgb(255, 255, 255); */
+                        }
+                        .story-title{
+                            font-size: 1.3rem;
+                            font-weight: 900;
+                            line-height: 28.76px;
+                        }
+                        .story-btn{
+                            color: white;
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                            background-color:rgb(149, 178, 38);
+                            border: none;
+                            border-radius:48px ;
+                            padding: 11px 20px;
+                            margin-bottom: 23px;
+                        
+                        }
+                        .story-btn-2{
+                            color: white;
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                            background-color:rgb(93, 88, 240);
+                            border: none;
+                            border-radius:48px ;
+                            padding: 11px 20px;
+                            margin-bottom: 23px;
+                        
+                        }
+                        .stories-container{
+                            display: grid;
+                            grid-template-columns: repeat(2,1fr);
+                            gap: 20px;
+                            
+                        }
+                        .story-items{
+                            display: grid;
+                            grid-template-columns: repeat(2,1fr);
+                            gap: 20px;
+                        }
+                        .curriculum-title{
+                            display: flex;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            width: 100%;
+                          
+                        }
+                        .hr-line{
+                            display: none;
+                        }
+                        
